@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 This project follows a structured versioning and changelog approach.
 
-## [Unreleased]
+
 
 ### Planned
 - Develop comprehensive Web VAPT methodology.
@@ -15,7 +15,7 @@ This project follows a structured versioning and changelog approach.
 - Create professional VAPT report templates.
 - Add Python-based security automation scripts.
 
-## [1.0.0] - 2026-11-17
+
 
 ### Added
 - Initial project repository.
