@@ -1,1 +1,88 @@
 
+# ==========================================
+# Web-VAPT-Framework - Git Ignore
+# ==========================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local configuration
+config.local.*
+settings.local.*
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Scan output and temporary security reports
+scan-results/
+raw-scan-output/
+temporary-evidence/
+private-reports/
+
+# Burp Suite session and project files
+*.burp
+*.burpbackup
+
+# Local tool output
+nmap-output/
+zap-reports/
+
